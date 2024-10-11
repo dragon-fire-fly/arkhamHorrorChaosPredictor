@@ -1,0 +1,64 @@
+.chaos-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin: 0 10px;
+}
+
+.token-tables {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.token-table {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%;
+  background-color: #f9f9f9;
+}
+
+.success-table {
+  border-color: green;
+}
+
+.fail-table {
+  border-color: red;
+}
+
+.tokens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.token {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+.success-table .token {
+  background-color: #c8e6c9; /* Light green for success tokens */
+}
+
+.fail-table .token {
+  background-color: #ffcdd2; /* Light red for fail tokens */
+}
+
+.pass-chance {
+  margin-top: 30px;
+  font-size: 1.5em;
+}

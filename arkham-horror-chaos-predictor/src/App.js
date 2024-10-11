@@ -10,7 +10,7 @@ const ChaosBag = () => {
     "Agnes Baker": { knowledge: 4, agility: 2, combat: 2, willpower: 5 },
   };
 
-  const chaosBag = [+1, 0, -1, -2, -3, -4, +2, -6]; // Define chaos tokens
+  const chaosBag = [+1, 0, -1, -1, -1, -2, -3, -4, +2, -6]; // Define chaos tokens
   const [selectedCharacter, setSelectedCharacter] = useState("Daisy Walker"); // Default character
   const [skillType, setSkillType] = useState("knowledge"); // Default skill type
   const [baseSkill, setBaseSkill] = useState(
